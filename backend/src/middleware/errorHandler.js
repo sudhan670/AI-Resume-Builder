@@ -21,12 +21,6 @@ function errorHandler(err, req, res, next) {
         value.message,
       ])
     );
-  } else if (err.name === "CastError") {
-    status = 400;
-    message = `Invalid ${err.path}: ${err.value}`;
-  } else if (err.code === 11000) {
-    status = 409;
-    message = "Duplicate key error";
   } else if (err.name === "ZodError") {
     status = 400;
     message = "Zod validation failed";
