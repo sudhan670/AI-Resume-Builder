@@ -80,3 +80,8 @@ App runs at `http://localhost:5173` (proxies `/api` → backend)
 - Never commit `.env` or expose `SUPABASE_SECRET_KEY` in the frontend
 - Rotate keys if they were shared publicly
 - Use RLS policies (included in schema) when accessing Supabase directly from clients
+
+## Sample Output
+
+<img src="https://github.com/sudhan670/AI-Resume-Builder/blob/main/Output-Image2.png" alt="image1" />
+<img src="https://github.com/sudhan670/AI-Resume-Builder/blob/main/Output%20Image.png" alt="imaeg2" />
